@@ -12,7 +12,7 @@ class DbOperationbook
         require_once dirname(__FILE__) . '/DbConnectbook.php';
  
      
-        $db = new connect();
+        $db = new Dbconnectbook();
  
 
         $this->con = $db->connect();
